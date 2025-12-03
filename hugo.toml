@@ -33,7 +33,7 @@ Welcome to my academic page.
   [[params.socialIcons]]
     name = "email"
     icon = "fas fa-envelope"
-    url = "mailto:email@example.com"
+    url = "mailto:victorma1@al.insper.edu.br"
   [[params.socialIcons]]
     name = "github"
     icon = "fab fa-github"
@@ -41,15 +41,15 @@ Welcome to my academic page.
   [[params.socialIcons]]
     name = "linkedin"
     icon = "fab fa-linkedin"
-    url = "https://www.linkedin.com/in/victor-alves-/"
+    url = "https://www.linkedin.com/in/victormnalves"
   [[params.socialIcons]]
-    name = "twitter"
-    icon = "fab fa-twitter"
-    url = "https://twitter.com/USERNAME"
+    name = "x"
+    icon = "fab fa-x"
+    url = "https://x.com/victormnalves"
   [[params.socialIcons]]
     name = "bluesky"
     icon = "fab fa-bluesky"
-    url = "https://bsky.app/profile/USERNAME"
+    url = "https://bsky.app/profile/victormnalves"
 
 # === Menu ===
 [[menu.main]]
