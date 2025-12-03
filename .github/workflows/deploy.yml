@@ -1,9 +1,14 @@
-name: Deploy Hugo site
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build-deploy:
@@ -12,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: false   # não precisamos mais
+          submodules: recursive   # essencial para Hugo Modules
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -20,10 +25,12 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Download Hugo modules (PaperMod)
-        run: hugo mod get
+      - name: Initialize + Update Hugo modules
+        run: |
+          hugo mod init ${{ github.repository }} || true   # cria go.mod se não existir
+          hugo mod get -u                                  # baixa/atualiza o PaperMod
 
-      - name: Build site
+      - name: Build
         run: hugo --minify --baseURL "https://victormnalves.github.io/victor-alves-site/"
 
       - name: Deploy to GitHub Pages
@@ -32,3 +39,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'

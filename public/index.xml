@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on Victor Alves</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/victor-alves-site/</link>
     <description>Recent content in Home on Victor Alves</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/victor-alves-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/victor-alves-site/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:1313/victor-alves-site/about/</guid>
       <description>&lt;p&gt;I am &lt;strong&gt;Victor Alves&lt;/strong&gt;, an economist from Brazil with strong interests in economic theory, public policy, inequality, applied econometrics, and the intersection between quantitative analysis and real-world problems.&lt;/p&gt;
 &lt;p&gt;I completed my undergraduate studies with a full scholarship at a top institution, and I am currently preparing for graduate-level research in economics. My goal is to produce work that bridges rigorous economic modeling with questions relevant to social welfare, institutions, and development.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I am <strong>Victor Alves</strong>, an economist from Brazil with strong interests in economic theory, public policy, inequality, applied econometrics, and the intersection between quantitative analysis and real-world problems.</p>
@@ -21,9 +21,9 @@
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://localhost:1313/victor-alves-site/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>http://localhost:1313/victor-alves-site/contact/</guid>
       <description>&lt;p&gt;If you would like to get in touch, feel free to use any of the channels below:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; SEUEMAIL&lt;/li&gt;
@@ -46,9 +46,9 @@
     </item>
     <item>
       <title>Curriculum Vitae</title>
-      <link>http://localhost:1313/cv/</link>
+      <link>http://localhost:1313/victor-alves-site/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
+      <guid>http://localhost:1313/victor-alves-site/cv/</guid>
       <description>&lt;p&gt;You can access my full academic CV here:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;PDF coming soon.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;A structured online CV will also be added to this page.&lt;/p&gt;</description>
@@ -59,9 +59,9 @@
     </item>
     <item>
       <title>News &amp; Media</title>
-      <link>http://localhost:1313/news/</link>
+      <link>http://localhost:1313/victor-alves-site/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/</guid>
+      <guid>http://localhost:1313/victor-alves-site/news/</guid>
       <description>&lt;p&gt;This page collects selected media appearances, interviews, public commentary, and mentions related to my academic work and research interests.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;No news items added yet.&lt;/em&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This page collects selected media appearances, interviews, public commentary, and mentions related to my academic work and research interests.</p>
@@ -70,9 +70,9 @@
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:1313/research/</link>
+      <link>http://localhost:1313/victor-alves-site/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/</guid>
+      <guid>http://localhost:1313/victor-alves-site/research/</guid>
       <description>&lt;p&gt;My research interests include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Economic Theory&lt;/li&gt;
@@ -95,9 +95,9 @@
     </item>
     <item>
       <title>Study Materials</title>
-      <link>http://localhost:1313/materials/</link>
+      <link>http://localhost:1313/victor-alves-site/materials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/materials/</guid>
+      <guid>http://localhost:1313/victor-alves-site/materials/</guid>
       <description>&lt;p&gt;Here I share study notes, problem sets, explanations, and resources I have created over time—especially in economics, mathematics, data analysis, and econometrics.&lt;/p&gt;
 &lt;p&gt;Materials will be added soon.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Here I share study notes, problem sets, explanations, and resources I have created over time—especially in economics, mathematics, data analysis, and econometrics.</p>
