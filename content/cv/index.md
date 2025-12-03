@@ -3,35 +3,59 @@ title: "Curriculum Vitae"
 draft: false
 ---
 
-You can download my full academic CV here:  
-[**Download PDF**](/files/cv.pdf) *(em breve)*
+You can download the full academic CV here:  
+[**Download PDF**](/files/cv.pdf)
 
 ## Education
 
 - **B.S. in Economics** (Magna Cum Laude)  
-  Insper – São Paulo, Brazil  
+  Insper Instituto de Ensino e Pesquisa — São Paulo, Brazil  
   2020 – 2024
 
-- **Ph.D. in Economics** (expected)  
-  Insper – São Paulo, Brazil  
-  2026 – 2030 (admission expected/offered)
+- **Ph.D. in Economics** (candidate)  
+  Insper Instituto de Ensino e Pesquisa — São Paulo, Brazil  
+  Fall 2026 – 2030 (expected)
 
 ## Professional Experience
 
 - **Researcher**  
-  Insper – Núcleo de Estudos Raciais (NERI), São Paulo  
+  Insper – Núcleo de Estudos Raciais (NERI) — São Paulo, Brazil  
   Jan 2025 – Present
 
 - **Economics Research Intern**  
-  Morgan Stanley, São Paulo  
+  Morgan Stanley — São Paulo, Brazil  
   Jun 2023 – Jun 2024
 
 - **Research Assistant**  
-  Insper – J-PAL Latin America & Caribbean, São Paulo  
+  Insper – J-PAL Latin America & Caribbean — São Paulo, Brazil  
   Jun 2022 – Jun 2023
 
 - **Economics Research Winter Intern**  
-  Morgan Stanley, São Paulo  
+  Morgan Stanley — São Paulo, Brazil  
   Dec 2022 – Feb 2023
 
-*(Demais seções — Research Interests, Publications, Awards, Teaching, Skills, etc. — serão adicionadas progressivamente.)*
+## Scholarships and Awards
+
+- Full-Tuition Scholarship, Insper (2020–2024)  
+- 1º Place – Darcio Lazzarini Award for Best Undergraduate Thesis, Insper (2024)  
+- Academic Excellence Award – Insper Scholarship Program (2024)  
+- Honorable Mention – Top 10 Undergraduate Graduates, Insper (2024)
+
+## Skills
+
+**Advanced**  
+R, Microsoft Office Suite (Excel, Word, PowerPoint)
+
+**Intermediate**  
+Python, SQL, Stata, VBA, Power BI, EViews, LaTeX, Git
+
+**Novice / Learning**  
+Julia
+
+## Languages
+
+- Portuguese (native)  
+- English (fluent)  
+
+## References  
+Available upon request
