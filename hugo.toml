@@ -1,0 +1,88 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Victor Alves"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "Victor Alves"
+  description = "Economics, research, academic work and study materials."
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowBreadCrumbs = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  disableThemeToggle = false
+  ShowFullTextinRSS = true
+
+  # === ESSAS CONFIGS ATIVAM MENU + ÍCONES + FOTO NA HOME ===
+  showMenu = true
+  homeInfoParamsEnabled = true
+  socialIconsEnabled = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Victor Alves"
+    subtitle = """                          
+Economist · Researcher · PhD Applicant  
+Welcome to my academic page.
+"""
+    imageUrl = "images/profile.jpg"         # foto em static/images/
+    imageTitle = "Victor Alves"
+    imageWidth = 180
+    imageHeight = 180
+
+  [[params.socialIcons]]
+    name = "email"
+    icon = "fas fa-envelope"
+    url = "mailto:email@example.com"
+
+  [[params.socialIcons]]
+    name = "github"
+    icon = "fab fa-github"
+    url = "https://github.com/USERNAME"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    icon = "fab fa-linkedin"
+    url = "https://www.linkedin.com/in/USERNAME"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    icon = "fab fa-twitter"
+    url = "https://twitter.com/USERNAME"
+
+  [[params.socialIcons]]
+    name = "bluesky"
+    icon = "fab fa-bluesky"                 # Font Awesome 6.5+
+    url = "https://bsky.app/profile/USERNAME"
+
+# Menu principal (sem isso, o menu não aparece!)
+[menu]
+
+  [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Study Materials"
+    url = "/materials/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 4
+
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 6
