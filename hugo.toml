@@ -3,13 +3,16 @@ languageCode = "en-us"
 title = "Victor Alves"
 theme = "PaperMod"
 
+# === HUGO MODULES (obrigatório para o PaperMod funcionar sem pasta themes/) ===
 [module]
   [[module.imports]]
     path = "github.com/adityatelange/hugo-PaperMod"
 
+# === Paginação ===
 [pagination]
   pagerSize = 10
 
+# === Parâmetros do tema ===
 [params]
   author = "Victor Alves"
   description = "Economics, research, academic work and study materials."
@@ -18,18 +21,14 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowShareButtons = false
   ShowPostNavLinks = true
-  disableThemeToggle = false
   ShowFullTextinRSS = true
 
-  showMenu = true
-  homeInfoParamsEnabled = true
-  socialIconsEnabled = true
-
+  # Profile mode (página inicial)
   [params.profileMode]
     enabled = true
     title = "Victor Alves"
-    subtitle = """                          
-Economist · Researcher · PhD Applicant  
+    subtitle = """
+Economist · Researcher · PhD Applicant
 Welcome to my academic page.
 """
     imageUrl = "images/profile.jpg"
@@ -37,6 +36,7 @@ Welcome to my academic page.
     imageWidth = 180
     imageHeight = 180
 
+  # Ícones sociais
   [[params.socialIcons]]
     name = "email"
     icon = "fas fa-envelope"
@@ -45,12 +45,12 @@ Welcome to my academic page.
   [[params.socialIcons]]
     name = "github"
     icon = "fab fa-github"
-    url = "https://github.com/USERNAME"
+    url = "https://github.com/victormnalves"
 
   [[params.socialIcons]]
     name = "linkedin"
     icon = "fab fa-linkedin"
-    url = "https://www.linkedin.com/in/USERNAME"
+    url = "https://www.linkedin.com/in/victor-alves-/"
 
   [[params.socialIcons]]
     name = "twitter"
@@ -62,33 +62,33 @@ Welcome to my academic page.
     icon = "fab fa-bluesky"
     url = "https://bsky.app/profile/USERNAME"
 
-[menu]
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 1
+# === Menu principal ===
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
 
-  [[menu.main]]
-    name = "News"
-    url = "/news/"
-    weight = 2
+[[menu.main]]
+  name = "News"
+  url = "/news/"
+  weight = 2
 
-  [[menu.main]]
-    name = "Study Materials"
-    url = "/materials/"
-    weight = 3
+[[menu.main]]
+  name = "Study Materials"
+  url = "/materials/"
+  weight = 3
 
-  [[menu.main]]
-    name = "Research"
-    url = "/research/"
-    weight = 4
+[[menu.main]]
+  name = "Research"
+  url = "/research/"
+  weight = 4
 
-  [[menu.main]]
-    name = "CV"
-    url = "/cv/"
-    weight = 5
+[[menu.main]]
+  name = "CV"
+  url = "/cv/"
+  weight = 5
 
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 6
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 6
