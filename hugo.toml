@@ -21,8 +21,8 @@ theme = "github.com/adityatelange/hugo-PaperMod"
   [params.profileMode]
     enabled = true
     title = "Victor Alves"
-    subtitle = """
-Economist · Researcher · PhD Applicant
+subtitle = """
+Economist · Researcher · PhD Candidate at Insper\n
 Welcome to my academic page.
 """
     imageUrl = "images/profile.jpg"
