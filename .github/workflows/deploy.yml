@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write      # preciso de write para push
+  contents: write    # necessário para publicar na main
   pages: write
   id-token: write
 
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
@@ -26,19 +26,20 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Initialize + Update Hugo Modules
+      - name: Initialize + Update Hugo modules
         run: |
           hugo mod init ${{ github.repository }} || true
           hugo mod get -u
 
-      - name: Build site
-        run: hugo --minify --baseURL "https://victormnalves.github.io/victor-alves-site/"
+      - name: Build
+        run: hugo --minify --baseURL "https://victormnalves.github.io/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          publish_branch: main     # publica direto na main
           force_orphan: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
