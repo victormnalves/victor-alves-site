@@ -29,7 +29,7 @@ theme = "PaperMod"
 Economist · Researcher · PhD Applicant  
 Welcome to my academic page.
 """
-    imageUrl = "images/profile.jpg"
+    imageUrl = "images/profile.jpg"   # colocar dentro de static/images/
     imageTitle = "Victor Alves"
     imageWidth = 180
     imageHeight = 180
@@ -37,27 +37,27 @@ Welcome to my academic page.
   [[params.socialIcons]]
     name = "email"
     icon = "fas fa-envelope"
-    url = "mailto:email@example.com"
+    url = "mailto:SEU_EMAIL@exemplo.com"
 
   [[params.socialIcons]]
     name = "github"
     icon = "fab fa-github"
-    url = "https://github.com/USERNAME"
+    url = "https://github.com/SEU_GITHUB"
 
   [[params.socialIcons]]
     name = "linkedin"
     icon = "fab fa-linkedin"
-    url = "https://www.linkedin.com/in/USERNAME"
+    url = "https://www.linkedin.com/in/SEU_LINKEDIN"
 
   [[params.socialIcons]]
     name = "twitter"
     icon = "fab fa-twitter"
-    url = "https://twitter.com/USERNAME"
+    url = "https://twitter.com/SEU_TWITTER"
 
   [[params.socialIcons]]
     name = "bluesky"
     icon = "fab fa-bluesky"
-    url = "https://bsky.app/profile/USERNAME"
+    url = "https://bsky.app/profile/SEU_BLUESKY"
 
 # Menu principal
 [menu]
