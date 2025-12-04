@@ -15,7 +15,7 @@ You can download the full academic CV here:
 
 - **Ph.D. in Economics** (candidate)  
   Insper Instituto de Ensino e Pesquisa — São Paulo, Brazil  
-  2026 – 2030 (expected)
+  2026 – 2031 (expected)
 
 ## Professional Experience
 
