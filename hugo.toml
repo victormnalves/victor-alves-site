@@ -36,7 +36,7 @@ Welcome to my academic page.
     url = "mailto:victorma1@al.insper.edu.br"
   [[params.socialIcons]]
   name = "lattes"
-  icon = "fas fa-graduation-cap"
+  image = "images/lattes.png"
   url = "http://lattes.cnpq.br/9390800406342758"
   [[params.socialIcons]]
     name = "github"
