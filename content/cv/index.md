@@ -4,7 +4,7 @@ draft: false
 ---
 
 You can download the full academic CV here:  
-[**Download PDF** (English)](/files/cv.pdf)
+[**Download PDF** (English)](/files/cv.pdf)\n
 [**Lattes** (Portuguese)](http://lattes.cnpq.br/9390800406342758)
 
 ## Education
